@@ -27,7 +27,6 @@ from llama_index.embeddings.langchain import LangchainEmbedding
 
 from rag.retriever import (
     load_embedding_model,
-    load_reranker_model, 
     generate_repo_ast
 )
 
